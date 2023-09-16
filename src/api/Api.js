@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const baseUrl = "https://nodejs-todo-app-jj16.onrender.com"
+const baseUrl = "http://localhost:5000"
 
 // Get All 
 const getAllTodo = (setTodo) => {
