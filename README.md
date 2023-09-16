@@ -1,7 +1,7 @@
 # Todo App (React.js and Node.js Server)
 ![](todo-app.gif)
 
-A basic understanding and using practically react components, hooks, packages, axios and others.
+A basic understanding and using practically react components, hooks, packages, axios and others. Also connected to the Node.js, Express.js Server and MongoBD Database.
 
 ## Locally Run Script
 
