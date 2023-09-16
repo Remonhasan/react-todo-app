@@ -1,21 +1,18 @@
 import React from 'react'
 import { FaEdit, FaTrash } from "react-icons/fa";
 
-export default function TodoList() {
+export default function TodoList({name, updateMode, deleteTodo}) {
   return (
     <>
-    <div className='mb-5'>
+    <div className='mb-2 '>
     <ul className="list-group">
         <li className="list-group-item">
-         Buy Rice
-        <button className='btn btn-default ml-2'><FaEdit/></button>
-        <button className='btn btn-default ml-2'><FaTrash/></button>
+         {name}
+        <button className='btn btn-default ml-2' onClick={updateMode}><FaEdit/></button>
+        <button className='btn btn-default ml-2' onClick={deleteTodo}><FaTrash/></button>
         </li>
       </ul>
        
-    </div>
-    <div className='m-0 mt-2 mb-3'>
-    © Remon Hasan
     </div>
     </>
   )
